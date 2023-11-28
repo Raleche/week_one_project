@@ -5,9 +5,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color:white;
 }
 
+.cardContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  margin: auto auto;
+  
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.color1{
+  background-color: rgb(255, 165, 0);
+  
+}
+
+.color2{
+  background-color: rgb(22, 146, 144);
+}
+
+.color3{
+  background-color: rgb(0, 105, 112)
+}
+
+.card{
+  margin: 10px 10px 10px 10px;
+}
+.btn{
+  font-size: 16px;
+  margin: 10px 100px;
+  border-radius: 40px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+.card-content{
+  margin-top:100px;
+  text-align: center;
 }
